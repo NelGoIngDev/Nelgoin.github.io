@@ -17,15 +17,23 @@ body
     margin: 0 auto;
 }
 
-#cabecera
+#Cabecera
 {
-    width: 90%;
-    padding: 2em;
-    text-align: center;
-    border: 1px solid #2c0ce2;
-    margin: 0 auto;
+    background: #230c88;
+    box-shadow: -6px -1px 30px -7px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0;
 }
 
+#Cabecera #tagline
+{
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
 #container h1
 {
     font-size: 20px;

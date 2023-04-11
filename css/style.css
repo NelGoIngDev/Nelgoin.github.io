@@ -1,5 +1,6 @@
 body
 {
+    background: #1e1f24;
     color: rgb(226, 208, 43);
     text-align: center;
     font-family: "currier";
@@ -17,13 +18,19 @@ body
     margin: 0 auto;
 }
 
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
 #Cabecera
 {
-    background: #230c88;
+    background: #37488b;
     box-shadow: -6px -1px 30px -7px rgba(0,0,0,0.75);
     color: white;
     font-weight: bold;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
     margin: 0;
 }
 
@@ -37,4 +44,10 @@ body
 #container h1
 {
     font-size: 30px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
 }
